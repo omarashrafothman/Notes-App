@@ -10,7 +10,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"];
 const notes = JSON.parse(localStorage.getItem("notes") || "[]");
 let isUpdate = false, updateId;
-
+alert("developed by OMAR OTHMAN");
 addBox.addEventListener("click", () => {
     popupTitle.innerText = "Add a new Note";
     addBtn.innerText = "Add Note";
